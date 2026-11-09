@@ -1,16 +1,27 @@
-# React + Vite
+# Jogo da Velha — Projeto React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto de Jogo da Velha desenvolvido com **React e JavaScript**, com o objetivo de praticar e aprimorar meus conhecimentos em desenvolvimento front-end.
 
-Currently, two official plugins are available:
+O jogo possui um tabuleiro interativo de 3x3, no qual os jogadores alternam entre X e O, com verificação automática de vitória e empate.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Funcionalidades
+- Menu inicial para escolher o modo de jogo.
+- Partida entre dois jogadores.
+- Alternância automática entre X e O.
+- Verificação de vitória e empate.
+- Opção para reiniciar a partida.
+- Navegação entre o menu e o tabuleiro.
 
-## React Compiler
+### Tecnologias utilizadas
+- React
+- JavaScript
+- HTML
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Status do projeto
 
-## Expanding the ESLint configuration
+<badge color="success">Em desenvolvimento</badge>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A modalidade para jogar com um amigo já está implementada. **A única funcionalidade que ainda falta desenvolver é o modo contra o Bot (computador)**, que permitirá jogar sozinho contra a inteligência do jogo.
+
+Este projeto faz parte da minha jornada de aprendizado em React, colocando em prática conceitos como componentes, props, useState, eventos, renderização condicional e manipulação de arrays.
